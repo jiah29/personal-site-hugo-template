@@ -1,0 +1,307 @@
+
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Jia Hao Choo"
+theme: hugo-profile
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  # main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+
+    # #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 2
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Jia Hao Choo"
+  description: Jia Hao Choo's Personal Website
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/logo.png"
+
+  theme:
+    disableThemeToggle: false
+    # defaultTheme: "light" # dark
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #  textColor: "#F5F5F5"
+  #  secondaryTextColor: "#F5F5F5"
+  #  backgroundColor: "#313552"
+  #  primaryColor: "#F1E0AC"
+  #  secondaryColor: "#30475E"
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Jia Hao Choo."
+    subtitle: "I build software, mobile and web applications"
+    content: "A passionate builder. I enjoy learning and using modern tools and languages to build applications and software that look great and functions correctly. Also a huge movie and geography lover!"
+    # image: /images/hero.svg
+    button:
+      enable: true
+      name: "Resume"
+      url: https://drive.google.com/file/d/150T2Qn8AxQ-FQdEEz1QqnuktxhxSLPLK/view?usp=sharing
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/jiah29
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpeg"
+    content: |-
+      I am a computer science student at University of Toronto (with a minor in Geographic Information Systems). I have a background in software and mobile/web apps development, and I have a strong interest in the intersection of ethics, technology and geography. I am currently working as a software developer at [Ratio.City.](https://www.ratio.city/)
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML & CSS"
+        - "Angular"
+        - "React & React Native"
+        - "C, Java & JavaScript"
+        - "Node.js & Express.js"
+        - "R & Python"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Full Stack Developer Intern"
+        company: "Ratio City"
+        companyUrl: "https://www.ratio.city/"
+        date: "May 2022 - present"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: true
+          content: I am currently working here for summer 2022!
+        content: |
+          I am currently working as a full stack developer at Ratio.City in Toronto. I use the Angular and Material Design framework (with HTML, SCSS, TypeScript) to develop software features, improve the web app UI and functionalities. I also help to build and write test plans for the Angular code base as well as integrating Matomo Analytics into the web application.
+      - job: "Mobile App Developer"
+        company: "IRLY"
+        companyUrl: "https://www.linkedin.com/company/irlyapp/"
+        date: "Feb 2022 - present"
+        info:
+          enable: true
+          content: I am working here as a part time mobile app developer in 2022!
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+          I am currently working as a mobile app developer at IRLY, a early-stage video dating app startup based in Toronto. I involve in setting up the video call aspects of the app using Twilio API into the React Native framework for the beta product. I also help to set up backend business logic code using Nest.JS and TypeScript.
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Honours Bachelor of Science (Computer Science Specialist & Geographic Information Systems Minor)"
+        school:
+          name: "University of Toronto"
+          url: "https://www.utoronto.ca/"
+        date: "2020 - 2024"
+        GPA: "3.87"
+        content: |-
+          - 1 of 24 students accepted into Technology Leadership Initiative (2021-22 Cohort), which offers industry-integrated classroom learning, tailored leadership training for technologists, and industry internships.
+          - 1 of 23 students accepted into the Munk One program (2020-21 Cohort), which provides students with a focus on innovation and global problem-solving.
+          - Extracurricular Activities
+            - Technical Director @ Google Developer Student Club
+              - Plan and lead technical workshops for club members (topics taught include Tech Ethics, Java Programming & Data Structures)
+            - Student Mentor & Orientation Leader @ Woodsworth College
+              - Assist first-year students' transition into university throughout summer in my role as an e-mentor, as well as into the school year as a mentor in the First Year Mentorship Program.
+              - Involve as one of the student panelists on a Woodsworth College's 'Welcome to Woodsworth' event
+              - Assist in and lead orientation activities for first year students.
+            - General Exec & TA @ UofT AI
+              - Help provide support as a TA for the LearnAI curriculum during the project phase by advising students on ideas/machine learning tools
+              - Involve in machine learning research on text-based ethical sentiment analysis
+              - Help reach out to several North American universities for partnership and participation in the annual ProjectX competition
+            - Mentor @ Global Ideas Institute
+              - In charge of guiding and mentoring a team of 4 Grade 11 students to develop an intervention to bolster digital safety for marginalized communities by teaching them useful problem solving and planning sk
+            - Executive Member @ Munk One Case Competition
+              - A member of the Logistics & Planning team that overlook the logistics and timeline for the annual case competition for Munk One Program.
+            - Logistics Officer Manager @ UTMUN
+              - Create resources for participating delegates to prepare for UTMUN’s first virtual conference
+              - Involve in participating in dry runs and providing feedback
+              - Manage communications between delegates during the conference
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    items:
+      - title: Alpha Microsoft Learn Student Ambassador
+        content: Selected as an Alpha ambassador in the program. Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities and develop technical and career skills for the future.
+        url: https://studentambassadors.microsoft.com/certificate/3ad53c0c-5f56-4342-ae8d-123b874c68f9
+      - title: Dean's List Scholar
+        content: Winter 2021 Dean's List Scholar
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: TraderAuto+
+        content: A web application focused on connecting car buyers with lower credit scores with subprime lenders
+        image: /images/projects/traderauto.png
+        # featured:
+        #  name: Demo
+        #  link: https://hugo-profile.netlify.app
+        badges:
+          - "React (HTML/CSS)"
+          - "AWS EC2, Amplify & RDS"
+          - "Java"
+          - "SQL"
+          - "Github Actions"
+          - "Clean Architecture & SOLID"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/autotrader-plus/traderauto-plus
+
+      - title: Power of Policy
+        content: A python program and visualisation tool that analyses the efficacy of various government policies in reducing COVID-related deaths and cases 
+        image: /images/projects/covid-policy.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Python"
+          - "Plotly"
+          - "Pandas"
+          - "NetworkX"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiah29/csc111_covid_policies
+
+      - title: Money & Climate Change
+        content: A python program that analyses the relationship between money/capital and climate change
+        image: /images/projects/earth-melt.jpg
+        # featured:
+        #  name: Demo V2
+        #  link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+          - "Plotly"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiah29/CSC110-Project-Climate-Change-Exploration
+
+      - title: Video Call Web & Mobile App
+        content: Web app and mobile app with video call features using Twilio API
+        image: /images/projects/twilio.jpg
+        badges:
+          - "Twilio"
+          - "React"
+          - "React Native"
+          - "Node.js"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiah29/videocall-mobileapp
+          - icon: fab fa-github
+            url: https://github.com/jiah29/videocall-webapp
+
+      - title: Personal Portfolio Website
+        content: The previous iteration of my personal portfolio website
+        image: /images/projects/prev-website.png
+        featured:
+          name: Website
+          link: https://jiah29.github.io/personal-portfolio-v1/
+        badges:
+          - "JavaScript"
+          - "HTML"
+          - "CSS"
+          - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiah29/personal-portfolio-v1
+
+      - title: Get to the other side!
+        content: Simple Unity game made with C#.
+        image: /images/projects/game.png
+        featured:
+          name: Demo
+          link: https://jiah29.itch.io/gttos-sample
+        badges:
+          - "C#"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiah29/first-unity-game
+
+  #Contact
+  contact:
+    enable: true
+    content: My inbox is always open. Shoot me an email to ask me anything or say hi!
+    email: jiahao.choo@mail.utoronto.ca
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/jiah29
+      linkedin: https://www.linkedin.com/in/jiahaochoo/
